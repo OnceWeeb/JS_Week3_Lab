@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miles Per Gallon Calculator</title>
+    <link rel="stylesheet" href="lab3.css">
+    <!-- <script src="lab3.js"></script> -->
+</head>
+
+<body class="main">
+    <main>
+        <h1>Chapter 3 Lab Example</h1>
+        <div>
+            <label for="convert-type">Convert Type</label>
+            <input type="radio" id="digit" name="convert-type" value="_digit" checked onclick="onDigit()">
+            <span for="digit">Digit</span>
+            <input type="radio" id="letter" name="convert-type" value="_letter" onclick="onDigit()">
+            <span for="digit">Letter</span>
+        </div>
+        <div>
+            <label for="input">
+                <span id="phone-number-label">Digit to letter</span>
+            </label>
+            <input id="input_id" class="input-width"></input>
+        </div>
+        <div>
+            <label for="output">Phone Number</label>
+            <input type="text" id="output_id" class="output-width" readonly="true"></input>
+        </div>
+        <div>
+            <label for="action"></label>
+            <input type="button" id="action" value="Convert"></input>
+        </div>
+    </main>
+    <script src="lab3.js"></script>
+</body>
